@@ -15,7 +15,7 @@ html, body {
     overflow: hidden;
 }
 
-.linhas-diagonais-decorativas {
+.barras-decorativas {
     position: absolute;
     top: calc(35 / 350 * 100vh);
     left: calc(60 / 700 * 100vw);
@@ -82,25 +82,4 @@ html, body {
     margin-top: calc(6 / 350 * 100vh);
     letter-spacing: 0.5px;
     color: #dadada;
-}
-
-.container-linha-curva {
-    position: absolute;
-    bottom: calc(60 / 350 * 100vh);
-    left: calc(65 / 700 * 100vw);
-}
-
-.svg-linha-curva {
-    width: calc(260 / 700 * 100vw);
-    height: calc(60 / 350 * 100vh);
-}
-
-.caminho-linha-curva {
-    stroke: #f0f8ff;
-    stroke-width: 1.5;
-    fill: transparent;
-}
-
-.circulo-linha-curva {
-    fill: #f0f8ff;
 }
