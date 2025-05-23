@@ -66,7 +66,7 @@ html, body {
     color: #e0e0e0;
 }
 
-.container-botoes-contato {
+.botoes-contato {
     display: flex;
     gap: 15px;
 }
@@ -89,13 +89,13 @@ html, body {
     transform: translateY(-2px);
 }
 
-.recipiente-foto-decorada {
+.foto-decorada {
     position: relative;
     width: clamp(280px, 80%, 400px);
     aspect-ratio: 3/4;
 }
 
-.recipiente-foto {
+.foto {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.05);
@@ -106,45 +106,11 @@ html, body {
     overflow: hidden;
 }
 
-.recipiente-foto img {
+.foto img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-}
-
-.decoracao-foto {
-    position: absolute;
-    fill: none;
-    stroke: #61DAFB;
-    z-index: 1;
-}
-
-.decoracao-inferior-esquerda {
-    width: 80px;
-    height: 80px;
-    bottom: -20px;
-    left: -30px;
-    transform: rotate(5deg);
-}
-.decoracao-inferior-esquerda path {
-    d: M5,75 Q5,10 75,10;
-}
-
-.decoracao-superior-direita {
-    width: 80px;
-    height: 80px;
-    top: -25px;
-    right: -30px;
-    transform: rotate(-10deg);
-}
-
-.decoracao-superior-direita path {
-    d: M25,90 Q90,90 90,25;
-}
-
-.decoracao-superior-direita marker polygon {
-    fill: #61DAFB;
 }
 
 @keyframes surgirDaEsquerda {
